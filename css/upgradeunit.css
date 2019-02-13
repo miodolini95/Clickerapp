@@ -1,0 +1,24 @@
+.upgradeunit11, .upgradeunit21, .upgradeunit31, .upgradeunit41, .upgradeunit51{
+    opacity:0.5;
+    position: relative;
+    border-radius: 10px;
+}
+.upgradeinfo11, .upgradeinfo21 ,.upgradeinfo31,.upgradeinfo41,.upgradeinfo51
+{
+    width: 200px;
+    height: auto;
+    background-color: black;
+    border-radius: 10px;
+    left:0;
+    bottom: -40px;
+    position: absolute;
+    display: none;
+    color: white;
+    padding: 5px;
+    opacity: 1;
+}
+.upgradeunit11:hover > .upgradeinfo11, .upgradeunit21:hover > .upgradeinfo21,.upgradeunit31:hover > .upgradeinfo31,.upgradeunit41:hover > .upgradeinfo41,
+.upgradeunit51:hover > .upgradeinfo51{
+    display:block;
+
+}

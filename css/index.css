@@ -1,0 +1,155 @@
+body{
+    color:white;
+    background-color:black;
+  }
+  .units{
+    padding:20px;
+    height: auto;
+    background-image: url(img/dark-blue-background.jpg);
+    background-size: 100% 100%;
+    margin:10px;    
+  }
+  .amount{
+    text-align: center;
+    padding:5%;
+    background-color: grey;
+    margin:10px;
+  }
+  .content{
+    background-color: green;
+    height: 20em;
+    margin:10px;
+    padding: 20px;
+  }
+  .unitbox{
+    border:2px solid black;
+    border-radius: 5px;
+    margin:5px;
+    padding: 10px;
+    transform: skew(10deg);
+  }
+  .clickunit{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: table;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: block;
+  }
+  .clickunit:active{
+    transform: scale(1.5);
+  }
+  
+  /* upgrades */
+  .upgradesarea{
+    display: none;
+    padding: 10px;
+  }
+  .upgradeunit{
+    display: inline-block;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+  }
+  .menu-bar{
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid black;
+  }
+  .menu-bar-box{
+    width: 93px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px;
+  }
+  /* menu */
+  .unitsmenu{
+    background-image: url(img/button1.png);
+    cursor: pointer;
+  }
+  .unitsmenu:hover{
+    background-image: url(img/button1hover.png);
+  }
+  .upgradesmenu{
+    background-image: url(img/button2.png);
+    width:103px;
+    cursor: pointer;
+  }
+  .upgradesmenu:hover{
+    background-image: url(img/button2hover.png);
+  }
+  .buildingsmenu{
+    background-image: url(img/button3.png);
+    width: 83px;
+    cursor: pointer;
+  }
+  .buildingsmenu:hover{
+    background-image: url(img/button3hover.png);
+  }
+  .minemenu{
+    background-image: url(img/button4.png);
+    height: 35px;
+    cursor: pointer;
+  }
+  .minemenu:hover{
+    background-image: url(img/button4hover.png);
+  }
+  .citymenu{
+    background-image: url(img/button5.png);
+    height: 35px;
+    width: 111px;
+    cursor: pointer;
+  }
+  .citymenu:hover{
+    background-image: url(img/button5hover.png);
+  }
+  /* buildings*/
+  
+
+  .buildingsarea{
+    display: none;
+  }
+  .buildingbox{
+    border:2px solid black;
+    margin:5px;
+    padding: 10px;
+    transform: skew(-10deg);
+    background: #555;
+  }
+  
+  /* buildings area */
+  .city{
+    min-height: 20em;
+    position: relative;
+  }
+  .building1box,.building2box,.building3box,.building4box{
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+  }
+  .building1-1box,.building2-2box,.building3-3box,.building4-4box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .buildingel1, .buildingel2,.buildingel3,.buildingel4
+  {
+    position: absolute;
+    left:0;
+    bottom: 4em;
+    background-color: black;
+    color:white;
+  }
+  
+  .building2box{
+    left:60px;
+  }
+   .building3box{
+    left:120px;
+  }
+  .building4box{
+    left:180px;
+  }
