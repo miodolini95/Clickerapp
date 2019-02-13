@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/upgradeunit.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="units col-lg-4">
+                <div class="menu-bar">
+                    <div class="menu-bar-box unitsmenu">
+                    </div>
+                    <div class="menu-bar-box upgradesmenu">
+                    </div>
+                    <div class="menu-bar-box buildingsmenu">
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="buildingsarea col-lg-12">
+                            <div class="buildingbox">
+                                <div class="building1">
+                                    <div class="buildingtext1-1"></div>
+                                    <button type="button" class="btn btn-primary addbuilding1">dodaj</button>
+                                </div>
+                            </div>
+                            <div class="buildingbox">
+                                <div class="building2">
+                                    <div class="buildingtext2-2"></div>
+                                    <button type="button" class="btn btn-primary addbuilding2">dodaj</button>
+                                </div>
+                            </div>    
+                            <div class="buildingbox">
+                                <div class="building3">
+                                    <div class="buildingtext3-3"></div>
+                                    <button type="button" class="btn btn-primary addbuilding3">dodaj</button>
+                                </div>
+                            </div>
+                            <div class="buildingbox">
+                                <div class="building4">
+                                    <div class="buildingtext4-4"></div>
+                                    <button type="button" class="btn btn-primary addbuilding4">dodaj</button>
+                                </div>
+                            </div>                    
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="upgradesarea col-lg-12">
+                            <div class="upgradeunit upgradeunit11">  
+                                <div class="upgradeinfo11">Ulepsz żuli</div>                        
+                            </div>
+                            <div class="upgradeunit upgradeunit21">   
+                                <div class="upgradeinfo21">Ulepsz Złomiarzy</div>                         
+                            </div>
+                            <div class="upgradeunit upgradeunit31">  
+                                <div class="upgradeinfo31">Ulepsz Sąsiadów</div>                          
+                            </div>
+                            <div class="upgradeunit upgradeunit41">  
+                                <div class="upgradeinfo41">Ulepsz Biznesmenow</div>                          
+                            </div>
+                            <div class="upgradeunit upgradeunit51">   
+                                <div class="upgradeinfo51"></div>                         
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="unitsarea">
+                    <div class="unitbox">
+                        <div class="powerbox">
+                            <div class="clickpower"></div>
+                            <button type="button" class="btn btn-primary addclickpower">dodaj</button>
+                            <button type="button" class="btn btn-primary addclickpower10">kup 10</button>
+                        </div>
+                    </div>
+                    <div style="text-align: center"><h4>wynajmij funfli</h4></div>
+                    <div class="unitbox">
+                        <div class="unitboxbox1">
+                            <div class="unittext1"></div>
+                            <button type="button" class="btn btn-primary addunit1">dodaj</button>
+                            <button type="button" class="btn btn-primary addunit1-10">kup 10</button>
+                        </div>
+                    </div>
+                    <div class="unitbox">
+                        <div class="unitboxbox2">
+                            <div class="unittext2"></div>
+                            <button type="button" class="bnt bnt-success addunit2">dodaj</button>
+                            <button type="button" class="bnt bnt-success addunit2-10">kup 10</button>
+                        </div>
+                    </div>
+                    <div class="unitbox">
+                        <div class="unitboxbox3">
+                            <div class="unittext3"></div>
+                            <button type="button" class="bnt bnt-primary addunit3">dodaj</button> 
+                            <button type="button" class="bnt bnt-success addunit3-10">kup 10</button> 
+                        </div>
+                    </div>     
+                    <div class="unitbox">
+                        <div class="unitboxbox4">
+                            <div class="unittext4"></div>
+                            <button type="button" class="bnt bnt-primary addunit4">dodaj</button> 
+                            <button type="button" class="bnt bnt-success addunit4-10">kup 10</button> 
+                        </div>
+                    </div>     
+                </div>
+            </div>
+            <div class="playarea col-lg-7">
+                <div class="amount"></div>
+                <div class="content">
+                    <div class="menu">
+                        <div class="menu-bar-box citymenu"></div>
+                        <div class="menu-bar-box minemenu"></div>
+                    </div>
+                    <div class="mine">
+                        <div class="clickunit"></div>
+                    </div>
+                    <div class="city">
+                        <div class="building1box"> 
+                            <div class="building1-1box">
+                                <canvas class="buildingel1"></canvas>
+                            </div>
+                        </div>
+                        <div class="building2box"> 
+                            <div class="building2-2box">
+                                <canvas class="buildingel2"></canvas>
+                            </div>
+                        </div>
+                        <div class="building3box"> 
+                            <div class="building3-3box">
+                                <canvas class="buildingel3"></canvas>
+                            </div>
+                        </div>
+                        <div class="building4box"> 
+                            <div class="building4-4box">
+                                <canvas class="buildingel4"></canvas>
+                            </div>
+                        </div>
+                    </div>     
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+  </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/units.js"></script>
+    <script src="js/menustyle.js"></script>
+    <script src="js/opacityunits.js"></script>
+    <script src="js/clickarea.js"></script>   
+    <script src="js/upgrades.js"></script>
+    <script src="js/buildings.js"></script>
+    <script src="js/buildingsarea.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
