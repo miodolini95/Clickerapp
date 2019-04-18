@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",function(){
    })
 
 //your amount
-let amount = 1000000;
+let amount = 10000;
 
       function setStatunit(e,i,f,g,h){
         e.innerHTML = i + "("+ f+ "$) " +"ilosc: "+ g+"/"+h;
